@@ -2,7 +2,7 @@
 #reused from build.sh of https://github.com/solana-labs/bpf-tools
 
 BASE_PATH := $(ADALABS_ROOT_PATH)/GitHub/llvm-project
-INSTALL_PATH := /opt/solana/gnat-fsf-12
+INSTALL_PATH := /opt/solana/gnat-fsf-12/llvm15
 
 all:init-llvm build-and-install-llvm init-lld build-and-install-lld
 
